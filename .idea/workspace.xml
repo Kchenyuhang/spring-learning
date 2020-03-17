@@ -4,6 +4,7 @@
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/ioc/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ioc/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -92,8 +93,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.soft1851.spring.ioc.dao" />
       <recent name="com.soft1851.spring.ioc.entity" />
+      <recent name="com.soft1851.spring.ioc.dao" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.soft1851.spring.ioc.dao.impl" />
@@ -211,7 +212,7 @@
       <updated>1584406772678</updated>
       <workItem from="1584406779832" duration="3242000" />
       <workItem from="1584410299523" duration="4945000" />
-      <workItem from="1584431202900" duration="11832000" />
+      <workItem from="1584431202900" duration="12079000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584443434745</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改count方法">
+      <created>1584444304736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584444304736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="update学生类、pom.xml配置更新、添加logback.xml" />
     <MESSAGE value="Spring多模块+注解配置类+Spring JDBC" />
     <MESSAGE value="注解配置类" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解配置类" />
+    <MESSAGE value="修改count方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改count方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#SQL_Dialects" timestamp="1584434879454">
@@ -279,14 +288,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="880" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1584437416389" />
-    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584443432975">
+    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584444303119">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584443432975" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584443132179">
+    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584444303119" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584444336009">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584443132179" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584444336009" />
     <state width="724" height="289" key="GridCell.Tab.0.bottom" timestamp="1584444246948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -307,10 +316,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584443460515" />
-    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584439534799">
+    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584444388705">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1584439534799" />
+    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1584444388705" />
     <state x="356" y="128" key="new project wizard" timestamp="1584407326252">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
