@@ -4,9 +4,7 @@
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/ioc/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ioc/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bbs@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bbs@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bbs@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bbs: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -94,7 +108,7 @@
       <recent name="D:\dev\SpringStudy\spring-learning\ioc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBook">
+  <component name="RunManager" selected="JUnit.PostDaoTest.countPostByForumId">
     <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.TestBook" />
       <module name="ioc" />
@@ -174,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostDaoTest.countPostByForumId" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="JUnit.PostDaoTest.batchInsert" />
         <item itemvalue="JUnit.PostDaoTest.batchDelete" />
         <item itemvalue="JUnit.PostDaoTest.delete" />
-        <item itemvalue="JUnit.PostDaoTest.countPostByForumId" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +211,7 @@
       <updated>1584406772678</updated>
       <workItem from="1584406779832" duration="3242000" />
       <workItem from="1584410299523" duration="4945000" />
-      <workItem from="1584431202900" duration="11077000" />
+      <workItem from="1584431202900" duration="11832000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -213,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584442737403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="注解配置类">
+      <created>1584443434745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584443434745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +247,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update学生类、pom.xml配置更新、添加logback.xml" />
     <MESSAGE value="Spring多模块+注解配置类+Spring JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring多模块+注解配置类+Spring JDBC" />
+    <MESSAGE value="注解配置类" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解配置类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#SQL_Dialects" timestamp="1584434879454">
@@ -257,34 +279,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="880" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1584437416389" />
-    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584442733715">
+    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584443432975">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584442733715" />
+    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584443432975" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584443132179">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584443132179" />
-    <state width="1493" height="289" key="GridCell.Tab.0.bottom" timestamp="1584443344269">
+    <state width="724" height="289" key="GridCell.Tab.0.bottom" timestamp="1584444246948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584443344269" />
-    <state width="1493" height="289" key="GridCell.Tab.0.center" timestamp="1584443344269">
+    <state width="724" height="289" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
+    <state width="724" height="289" key="GridCell.Tab.0.center" timestamp="1584444246948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584443344269" />
-    <state width="1493" height="289" key="GridCell.Tab.0.left" timestamp="1584443344269">
+    <state width="724" height="289" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
+    <state width="724" height="289" key="GridCell.Tab.0.left" timestamp="1584444246947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584443344269" />
-    <state width="1493" height="289" key="GridCell.Tab.0.right" timestamp="1584443344269">
+    <state width="724" height="289" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584444246947" />
+    <state width="724" height="289" key="GridCell.Tab.0.right" timestamp="1584444246948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584443344269" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584442780930">
+    <state width="724" height="289" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584443460515">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584442780930" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584443460515" />
     <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584439534799">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
