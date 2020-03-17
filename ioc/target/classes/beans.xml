@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>
+    <bean id="phone1" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone11" p:price="6666"/>
+    <bean id="phone2" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone7" p:price="5555"/>
+    <bean id="student" class="com.soft1851.spring.ioc.entity.Student">
+        <property name="id" value="01"/>
+        <property name="name" value="陈宇航"/>
+        <property name="phones">
+            <list>
+                <ref bean="phone1"/>
+                <ref bean="phone2"/>
+            </list>
+        </property>
+        <property name="hobbies">
+            <list>
+                <value>game</value>
+                <value>music</value>
+                <value>reading</value>
+            </list>
+        </property>
+    </bean>
 </beans>
