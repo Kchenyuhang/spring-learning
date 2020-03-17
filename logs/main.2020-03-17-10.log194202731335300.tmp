@@ -1,0 +1,2 @@
+2020-03-17.10:12:33 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:20  Student{id=1, name='陈宇航', hoppies=[game, music, reading]}
+2020-03-17.10:21:49 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:20  Student{id=1, name='陈宇航', phones=[Phone{name='iPhone11', price=6666.0}, Phone{name='iPhone7', price=5555.0}], hobbies=[game, music, reading]}
