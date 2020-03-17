@@ -4,7 +4,6 @@
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/ioc/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ioc/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <recent name="D:\dev\SpringStudy\spring-learning\ioc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostDaoTest.countPostByForumId">
+  <component name="RunManager" selected="JUnit.PostDaoTest.insert">
     <configuration name="TestBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.TestBook" />
       <module name="ioc" />
@@ -171,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
@@ -181,7 +180,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.PostDaoTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostDaoTest.insert" />
         <item itemvalue="JUnit.PostDaoTest.countPostByForumId" />
         <item itemvalue="Application.TestBook" />
         <item itemvalue="JUnit.PostDaoTest.batchInsert" />
         <item itemvalue="JUnit.PostDaoTest.batchDelete" />
-        <item itemvalue="JUnit.PostDaoTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +211,7 @@
       <updated>1584406772678</updated>
       <workItem from="1584406779832" duration="3242000" />
       <workItem from="1584410299523" duration="4945000" />
-      <workItem from="1584431202900" duration="12079000" />
+      <workItem from="1584431202900" duration="13613000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584444304736</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注解配置类更新">
+      <created>1584444552951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584444552951</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +263,8 @@
     <MESSAGE value="Spring多模块+注解配置类+Spring JDBC" />
     <MESSAGE value="注解配置类" />
     <MESSAGE value="修改count方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改count方法" />
+    <MESSAGE value="注解配置类更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="注解配置类更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#SQL_Dialects" timestamp="1584434879454">
@@ -288,34 +295,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="880" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1584437416389" />
-    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584444303119">
+    <state x="372" y="24" key="CommitChangelistDialog2" timestamp="1584444551350">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584444303119" />
+    <state x="372" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584444551350" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584444336009">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584444336009" />
-    <state width="724" height="289" key="GridCell.Tab.0.bottom" timestamp="1584444246948">
+    <state width="1493" height="285" key="GridCell.Tab.0.bottom" timestamp="1584446458326">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="724" height="289" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
-    <state width="724" height="289" key="GridCell.Tab.0.center" timestamp="1584444246948">
+    <state width="1493" height="285" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584446458326" />
+    <state width="1493" height="285" key="GridCell.Tab.0.center" timestamp="1584446458325">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="724" height="289" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
-    <state width="724" height="289" key="GridCell.Tab.0.left" timestamp="1584444246947">
+    <state width="1493" height="285" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584446458325" />
+    <state width="1493" height="285" key="GridCell.Tab.0.left" timestamp="1584446458324">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="724" height="289" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584444246947" />
-    <state width="724" height="289" key="GridCell.Tab.0.right" timestamp="1584444246948">
+    <state width="1493" height="285" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584446458324" />
+    <state width="1493" height="285" key="GridCell.Tab.0.right" timestamp="1584446458326">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="724" height="289" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584444246948" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584443460515">
+    <state width="1493" height="285" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584446458326" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1584444558066">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584443460515" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1584444558066" />
     <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584444388705">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

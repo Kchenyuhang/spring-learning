@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -27,8 +31,12 @@ public class PostDaoTest {
     private PostDao postDao;
 
     @Test
-    public void insert() {
-        byte[] tem= {'a'};
+    public void insert() throws IOException {
+        File img = new File("D:\\资源\\pictures\\good.jpg");
+        FileInputStream fis = new FileInputStream(img);
+        byte[] tem = new byte[fis.available()];
+        fis.read(tem);
+        fis.close();
         Post post = Post.builder().forumId(2).content("测试0").thumbnail(tem).createTime(Timestamp.valueOf(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()))).title("test0").build();
         int n = postDao.insert(post);
         assertEquals(1,n);
@@ -36,8 +44,12 @@ public class PostDaoTest {
     }
 
     @Test
-    public void batchInsert() {
-        byte[] tem= {'a','b'};
+    public void batchInsert() throws IOException {
+        File img = new File("D:\\资源\\pictures\\good.jpg");
+        FileInputStream fis = new FileInputStream(img);
+        byte[] tem = new byte[fis.available()];
+        fis.read(tem);
+        fis.close();
         String time = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
         Post[] posts = {
                 Post.builder().forumId(3).content("测试1").thumbnail(tem).createTime(Timestamp.valueOf(time)).title("test1").build(),
