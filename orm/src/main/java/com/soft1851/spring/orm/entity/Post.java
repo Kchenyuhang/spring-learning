@@ -1,4 +1,4 @@
-package com.soft1851.spring.ioc.entity;
+package com.soft1851.spring.orm.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

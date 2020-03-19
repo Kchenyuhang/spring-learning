@@ -1,6 +1,6 @@
-package com.soft1851.spring.ioc.dao;
+package com.soft1851.spring.orm.dao;
 
-import com.soft1851.spring.ioc.entity.Post;
+import com.soft1851.spring.orm.entity.Post;
 
 import java.util.List;
 

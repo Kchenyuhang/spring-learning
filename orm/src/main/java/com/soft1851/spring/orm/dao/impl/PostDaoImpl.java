@@ -1,7 +1,7 @@
-package com.soft1851.spring.ioc.dao.impl;
+package com.soft1851.spring.orm.dao.impl;
 
-import com.soft1851.spring.ioc.dao.PostDao;
-import com.soft1851.spring.ioc.entity.Post;
+import com.soft1851.spring.orm.dao.PostDao;
+import com.soft1851.spring.orm.entity.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

@@ -1,7 +1,7 @@
-package com.soft1851.spring.ioc.dao.impl;
+package com.soft1851.spring.orm.dao.impl;
 
-import com.soft1851.spring.ioc.dao.ForumDao;
-import com.soft1851.spring.ioc.entity.Forum;
+import com.soft1851.spring.orm.dao.ForumDao;
+import com.soft1851.spring.orm.entity.Forum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -19,8 +19,24 @@ import java.util.List;
  */
 @Repository
 public class ForumDaoImpl implements ForumDao {
-    @Autowired
+    //xml配置版
+//    @Autowired
+//    private JdbcTemplate jdbcTemplate;
+
+    //注解配置版
     private JdbcTemplate jdbcTemplate;
+    //构造器注入
+//    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
+//        this.jdbcTemplate = jdbcTemplate;
+//    }
+
+    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
+        this.setJdbcTemplate(jdbcTemplate);
+    }
+
+    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
 
     @Override
     public int insert(Forum forum) {
