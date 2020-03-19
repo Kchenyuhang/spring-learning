@@ -40,7 +40,7 @@ public class PostDaoTest {
 //        byte[] tem = new byte[Integer.parseInt(resource.getPath())];
         Post post = null;
         try {
-            post = Post.builder().forumId(2).content("测试0").thumbnail(tem).createTime(Timestamp.valueOf(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()))).title("test0").build();
+            post = Post.builder().forumId(4).content("123").thumbnail(tem).createTime(Timestamp.valueOf(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()))).title("test0").build();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -70,14 +70,14 @@ public class PostDaoTest {
 
     @Test
     public void batchDelete() {
-        int[] tem = {1,2,3};
+        int[] tem = {16,17,18};
         int[] rows = postDao.batchDelete(tem);
         assertEquals(3,rows.length);
     }
 
     @Test
     public void delete() {
-        int n = postDao.delete(5);
+        int n = postDao.delete(15);
         assertEquals(1,n);
     }
 

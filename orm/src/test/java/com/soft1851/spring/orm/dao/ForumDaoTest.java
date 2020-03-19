@@ -27,7 +27,7 @@ public class ForumDaoTest {
 
     @Test
     public void insert() {
-        Forum forum = Forum.builder().forumName("测试论坛").build();
+        Forum forum = Forum.builder().forumName("测试论坛11").build();
         int n = forumDao.insert(forum);
         assertEquals(1, n);
         System.out.println(forum);
@@ -35,9 +35,9 @@ public class ForumDaoTest {
 
     @Test
     public void batchInsert() {
-        Forum[] forums = {Forum.builder().forumName("测试论坛1").build(),
-                Forum.builder().forumName("测试论坛2").build(),
-                Forum.builder().forumName("测试论坛3").build()};
+        Forum[] forums = {Forum.builder().forumName("测试论坛12").build(),
+                Forum.builder().forumName("测试论坛22").build(),
+                Forum.builder().forumName("测试论坛32").build()};
         List<Forum> forumList = Arrays.asList(forums);
         int[] rows = forumDao.batchInsert(forumList);
         assertEquals(3, rows.length);
@@ -45,7 +45,7 @@ public class ForumDaoTest {
 
     @Test
     public void delete() {
-        int n = forumDao.delete(1);
+        int n = forumDao.delete(7);
         assertEquals(1, n);
     }
 
@@ -68,7 +68,7 @@ public class ForumDaoTest {
     @Test
     public void selectAll() {
         List<Forum> forums = forumDao.selectAll();
-        assertEquals(3,forums.size());
+        assertEquals(4,forums.size());
         System.out.println(forums);
     }
 }

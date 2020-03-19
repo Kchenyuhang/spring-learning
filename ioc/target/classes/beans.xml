@@ -6,42 +6,42 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>-->
-<!--    <bean id="phone1" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone11" p:price="6666"/>-->
-<!--    <bean id="phone2" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone7" p:price="5555"/>-->
-<!--    <bean id="student" class="com.soft1851.spring.ioc.entity.Student">-->
-<!--        <property name="id" value="01"/>-->
-<!--        <property name="name" value="陈宇航"/>-->
-<!--        <property name="phones">-->
-<!--            <list>-->
-<!--                <ref bean="phone1"/>-->
-<!--                <ref bean="phone2"/>-->
-<!--            </list>-->
-<!--        </property>-->
+    <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>
+    <bean id="phone1" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone11" p:price="6666"/>
+    <bean id="phone2" class="com.soft1851.spring.ioc.entity.Phone" p:name="iPhone7" p:price="5555"/>
+    <bean id="student" class="com.soft1851.spring.ioc.entity.Student">
+        <property name="id" value="01"/>
+        <property name="name" value="陈宇航"/>
+        <property name="phones">
+            <list>
+                <ref bean="phone1"/>
+                <ref bean="phone2"/>
+            </list>
+        </property>
 
-<!--        <property name="subjects">-->
-<!--            <map>-->
-<!--                <entry key="语文" value="88"/>-->
-<!--                <entry key="数学" value="99"/>-->
-<!--                <entry key="英语" value="90"/>-->
-<!--            </map>-->
-<!--        </property>-->
+        <property name="subjects">
+            <map>
+                <entry key="语文" value="88"/>
+                <entry key="数学" value="99"/>
+                <entry key="英语" value="90"/>
+            </map>
+        </property>
 
-<!--        <property name="hobbies">-->
-<!--            <list>-->
-<!--                <value>game</value>-->
-<!--                <value>music</value>-->
-<!--                <value>reading</value>-->
-<!--            </list>-->
-<!--        </property>-->
+        <property name="hobbies">
+            <list>
+                <value>game</value>
+                <value>music</value>
+                <value>reading</value>
+            </list>
+        </property>
 
-<!--        <property name="axe">-->
-<!--            <set>-->
-<!--                <value>普通字符串</value>-->
-<!--            </set>-->
-<!--        </property>-->
-<!--    </bean>-->
+        <property name="axe">
+            <set>
+                <value>普通字符串</value>
+            </set>
+        </property>
+    </bean>
 
-<!--    <context:component-scan base-package="com.soft1851.spring.ioc.config"/>-->
-<!--    <bean id="book" class="com.soft1851.spring.ioc.entity.Book"/>-->
+    <context:component-scan base-package="com.soft1851.spring.ioc.config"/>
+    <bean id="book" class="com.soft1851.spring.ioc.entity.Book"/>
 </beans>
