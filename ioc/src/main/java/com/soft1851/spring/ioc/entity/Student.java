@@ -13,8 +13,8 @@ public class Student {
     private Integer id;
     private String name;
     private List<Phone> phones;
-    private Map subjects;
     private List<String> hobbies;
+    private Map subjects;
     private Set axe;
 
     public Student(Integer id, String name, List<Phone> phones, List<String> hobbies, Map subjects, Set axe) {

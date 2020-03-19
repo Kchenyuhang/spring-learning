@@ -12,7 +12,6 @@ import java.util.logging.Logger;
  * @Date 2020/3/17
  */
 public class TestHello {
-    private Logger logger;
 
     public static void main(String[] args) {
         ApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
