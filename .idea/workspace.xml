@@ -7,55 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="图片转换成blob存入数据库">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/images/P1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/images/P2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/images/good.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/main.2020-03-17-16.log209942151968200.tmp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/main.2020-03-17-20.log20606381039200.tmp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/orm/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/orm/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/app/SpringDataSourceConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/config/SpringDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/images/P1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/images/P2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/images/good.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/ForumDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/src/test/java/com/soft1851/spring/orm/dao/PostDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestHello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/ForumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/ForumDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/PostDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/ForumDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/ForumDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/PostDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/entity/Forum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/entity/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/bbs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/resources/bbs.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/PostDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/TestHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/TestHello.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +147,7 @@
       <recent name="com.soft1851.spring.ioc.dao.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForumDaoTest.insert (1)">
+  <component name="RunManager" selected="Application.TestPhone">
     <configuration name="TestPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.TestPhone" />
       <module name="ioc" />
@@ -348,10 +303,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPhone" />
         <item itemvalue="JUnit.ForumDaoTest.insert (1)" />
         <item itemvalue="JUnit.ForumDaoTest.get" />
         <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.TestPhone" />
         <item itemvalue="JUnit.ForumDaoTest.update" />
       </list>
     </recent_temporary>
@@ -397,7 +352,7 @@
       <workItem from="1584449851973" duration="389000" />
       <workItem from="1584576204410" duration="13456000" />
       <workItem from="1584593884692" duration="4087000" />
-      <workItem from="1584601544246" duration="3871000" />
+      <workItem from="1584601544246" duration="4129000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -441,7 +396,28 @@
       <option name="project" value="LOCAL" />
       <updated>1584447670911</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="list、map、set注解配置">
+      <created>1584607260279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584607260279</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Spring JDBC xml配置和注解配置">
+      <created>1584607322209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584607322209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Web MVC（未完成）">
+      <created>1584607378098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584607378098</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +434,10 @@
     <MESSAGE value="修改count方法" />
     <MESSAGE value="注解配置类更新" />
     <MESSAGE value="图片转换成blob存入数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片转换成blob存入数据库" />
+    <MESSAGE value="list、map、set注解配置" />
+    <MESSAGE value="Spring JDBC xml配置和注解配置" />
+    <MESSAGE value="Web MVC（未完成）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web MVC（未完成）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#SQL_Dialects" timestamp="1584434879454">
@@ -509,30 +488,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584576847565" />
-    <state x="367" y="24" key="CommitChangelistDialog2" timestamp="1584607318533">
+    <state x="367" y="24" key="CommitChangelistDialog2" timestamp="1584607376308">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584607318533" />
+    <state x="367" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1584607376308" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1584444336009">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584444336009" />
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1584607135246">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1584607548242">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584607135246" />
-    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1584607135246">
+    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584607548242" />
+    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1584607548242">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584607135246" />
-    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1584607135246">
+    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584607548242" />
+    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1584607548242">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584607135246" />
-    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1584607135246">
+    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584607548242" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1584607548242">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584607135246" />
+    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584607548242" />
     <state width="486" height="210" key="GridCell.Tab.1.bottom" timestamp="1584589763558">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

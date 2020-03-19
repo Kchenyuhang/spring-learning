@@ -15,7 +15,10 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
     @Bean
     public Phone phone() {
-        return new Phone();
+        Phone phone = new Phone();
+        phone.setName("iPhone 9");
+        phone.setPrice(8888.8);
+        return phone;
     }
 
     @Bean

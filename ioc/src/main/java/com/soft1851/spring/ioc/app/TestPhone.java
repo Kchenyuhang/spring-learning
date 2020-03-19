@@ -21,8 +21,6 @@ public class TestPhone {
         ctx.scan("com.soft1851.spring.ioc.config");
         //ctx.refresh();
         Phone phone = (Phone) ctx.getBean("phone");
-        phone.setName("iPhone 9");
-        phone.setPrice(8888.8);
         System.out.println(phone.toString());
     }
 }
