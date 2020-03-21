@@ -1,0 +1,9 @@
+2020-03-19.13:02:49 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:30  Student{id=1, name='Archer', phones=null, subjects=null, hobbies=null, axe=null}
+2020-03-19.13:22:55 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:49  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:23:40 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:48  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={语文=88}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:24:10 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:49  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:25:34 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:49  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:25:57 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:49  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:27:00 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:51  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=null}
+2020-03-19.13:27:47 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:53  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=[123, 789]}
+2020-03-19.13:28:48 INFO  [main] com.soft1851.spring.ioc.app.TestStudent.main:51  Student{id=1, name='Archer', phones=[Phone{name='iPhone 9', price=8888.8}], subjects={数学=88, 语文=88}, hobbies=[sword, cooking], axe=[123, 789]}
