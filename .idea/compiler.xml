@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ioc" />
         <module name="web" />
-        <module name="orm" />
         <module name="aop" />
+        <module name="orm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
