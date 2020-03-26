@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="web:war exploded">
-    <output-path>$PROJECT_DIR$/web/target/web</output-path>
+  <artifact type="exploded-war" name="web-config:war exploded">
+    <output-path>$PROJECT_DIR$/web-config/target/web-config</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="web" />
+          <element id="module-output" name="web-config" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.11.RELEASE" />
@@ -31,7 +31,7 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.66" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="javaee-facet-resources" facet="web-config/web/Web" />
     </root>
   </artifact>
 </component>
