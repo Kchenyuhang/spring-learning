@@ -31,7 +31,7 @@ public class RankDaoImpl implements RankDao {
     @Override
     public int[] batchInsert(List<Rank> ranks) {
         final List<Rank> rankList = ranks;
-        String sql = "INSERT INTO t_rank(title, paly, barrage, pic) VALUES (?,?,?,?)";
+        String sql = "INSERT INTO t_rank(title, play, barrage, pic, url, collect, follow, score) VALUES (?,?,?,?,?,?,?,?)";
         return jdbcTemplate.batchUpdate(sql, new BatchPreparedStatementSetter() {
             @Override
             public void setValues(PreparedStatement preparedStatement, int i) throws SQLException {
@@ -40,6 +40,10 @@ public class RankDaoImpl implements RankDao {
                 preparedStatement.setInt(2, rank.getPlay());
                 preparedStatement.setInt(3, rank.getBarrage());
                 preparedStatement.setString(4, rank.getPic());
+                preparedStatement.setString(5,rank.getUrl());
+                preparedStatement.setString(6,rank.getCollect());
+                preparedStatement.setInt(7,rank.getFollow());
+                preparedStatement.setInt(8,rank.getScore());
             }
 
             @Override

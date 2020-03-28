@@ -6,13 +6,11 @@ import com.soft1851.spring.web.service.TopicService;
 import com.soft1851.spring.web.spider.JueJinSpider;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import javax.annotation.Resource;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -28,7 +26,7 @@ import static org.junit.Assert.*;
 @WebAppConfiguration("src/main/resources")
 public class TopicServiceImplTest {
 
-    @Autowired
+    @Resource
     private TopicService topicService;
 
     @Test
@@ -42,28 +40,6 @@ public class TopicServiceImplTest {
     public void batchInsert() {
         int[] ints = topicService.batchInsert(JueJinSpider.getTopics());
         assertEquals(JueJinSpider.getTopics().size(),ints.length);
-//        Topic topic1 = Topic.builder()
-//                .id("1001")
-//                .followed(true)
-//                .followersCount(15)
-//                .msgCount(14)
-//                .description("test")
-//                .topicIcon("test")
-//                .topicName("test")
-//                .build();
-//        Topic topic2 = Topic.builder()
-//                .id("1002")
-//                .followed(true)
-//                .followersCount(15)
-//                .msgCount(14)
-//                .description("test")
-//                .topicIcon("test")
-//                .topicName("test")
-//                .build();
-//        List<Topic> topicList = new ArrayList<>();
-//        topicList.add(topic1);
-//        topicList.add(topic2);
-//        System.out.println(Arrays.toString(topicService.batchInsert(topicList)));
     }
 
     @Test

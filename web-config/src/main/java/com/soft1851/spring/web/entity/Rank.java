@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.PrintWriter;
+
 /**
  * @Author yhChen
  * @Description
@@ -15,10 +17,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Rank {
-    private  Integer id;
-    private  String title;
-    private  Integer play;
-    private  Integer barrage;
-    private  String pic;
+    private Integer id;
+    private String title;
+    private Integer play;
+    private Integer barrage;
+    private String pic;
+    private String url;
+    private String collect;
+    private Integer follow;
+    private Integer score;
 
 }

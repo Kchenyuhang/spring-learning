@@ -46,11 +46,11 @@
             <img th:src="${book.cover}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 th:text="${book.name}" class="card-title">书名：</h5>
-<!--                <p th:text="${book.country,book.author}"></p>-->
+                <!--                <p th:text="${book.country,book.author}"></p>-->
                 <a th:text="${book.country}">国家：</a>
                 <a th:text="${book.author}">作者：</a>
                 <br/>
-                <h6 th:text="${book.introduction}" >简介：</h6>
+                <h6 th:text="${book.introduction}">简介：</h6>
             </div>
         </div>
     </div>

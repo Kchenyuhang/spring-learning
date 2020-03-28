@@ -16,7 +16,7 @@ import java.util.List;
  */
 //@Controller
 //@RequestMapping("/")
-//public class HelloController {
+public class HelloController {
 //    @GetMapping("home")
 //    public String home(Model model){
 //        model.addAttribute("message","Hello Spring MVC");
@@ -39,4 +39,4 @@ import java.util.List;
 //        return "home";
 //    }
 //
-//}
+}

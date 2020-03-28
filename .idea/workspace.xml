@@ -9,37 +9,20 @@
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="图片转换成blob存入数据库">
       <change afterPath="$PROJECT_DIR$/web-config/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web-config/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/config/SpringDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/TopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/RankDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/impl/RankDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/impl/TopicDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/entity/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/RankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/TopicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/impl/RankServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/impl/TopicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/spider/JueJinSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/util/ResponseObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/resources/templates/bilibili.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/dao/TopicDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/RankServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/TopicServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/BiLiBiLiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-config/src/main/resources/templates/rank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-config/src/main/resources/templates/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/logs/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_config_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/web_config_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-config/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/ForumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/ForumDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/ForumDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/impl/ForumDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/ForumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/ForumServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/impl/ForumDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/impl/ForumDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/controller/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/impl/RankDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/impl/RankDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/entity/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/TopicServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/TopicServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +91,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -163,7 +146,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-config/src/main/resources/img" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
@@ -190,11 +173,11 @@
       <recent name="com.soft1851.spring.orm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\resources\img" />
       <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\java\com\soft1851\spring\web\config" />
       <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\resources" />
       <recent name="D:\dev\SpringStudy\spring-learning\web\src\main\java\com\soft1851\spring\web\util" />
       <recent name="D:\dev\SpringStudy\spring-learning\web\src\main\resources" />
-      <recent name="D:\dev\SpringStudy\spring-learning\web\src\main\java\com\soft1851\spring\web\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1851.spring.web.dao.impl" />
@@ -210,17 +193,17 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 5 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="web-config" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.RankServiceImplTest.batchInsert">
+  <component name="RunManager" selected="Tomcat Server.my-web-config">
     <configuration name="BiLiBiLiSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.spider.BiLiBiLiSpider" />
       <module name="web-config" />
@@ -508,7 +491,7 @@
       <workItem from="1585056922276" duration="1036000" />
       <workItem from="1585183290895" duration="3439000" />
       <workItem from="1585368155460" duration="4447000" />
-      <workItem from="1585372696773" duration="7999000" />
+      <workItem from="1585372696773" duration="29676000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -601,7 +584,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585188816610</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="掘金和B站的爬虫">
+      <created>1585382528053</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585382528054</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1585382595714</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585382595714</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,10 +619,11 @@
     <MESSAGE value="Spring JDBC xml配置和注解配置" />
     <MESSAGE value="Web MVC（未完成）" />
     <MESSAGE value="Phone注解配置" />
-    <MESSAGE value="update" />
     <MESSAGE value="Spring MVC XML配置" />
     <MESSAGE value="web-config配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="web-config配置" />
+    <MESSAGE value="掘金和B站的爬虫" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#SQL_Dialects" timestamp="1584434879454">
@@ -684,62 +682,78 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584576847565" />
-    <state x="367" y="24" key="CommitChangelistDialog2" timestamp="1585382522555">
+    <state x="367" y="24" key="CommitChangelistDialog2" timestamp="1585382593795">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="367" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585382522555" />
+    <state x="367" y="24" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585382593795" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585018163323">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585018163323" />
-    <state width="1493" height="349" key="GridCell.Tab.0.bottom" timestamp="1585382428330">
+    <state width="1181" height="383" key="GridCell.Tab.0.bottom" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="349" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585382428330" />
-    <state width="1493" height="349" key="GridCell.Tab.0.center" timestamp="1585382428330">
+    <state width="1181" height="383" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.0.center" timestamp="1585407677995">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="349" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585382428330" />
-    <state width="1493" height="349" key="GridCell.Tab.0.left" timestamp="1585382428330">
+    <state width="1181" height="383" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585407677995" />
+    <state width="1181" height="383" key="GridCell.Tab.0.left" timestamp="1585407677995">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="349" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585382428330" />
-    <state width="1493" height="349" key="GridCell.Tab.0.right" timestamp="1585382428330">
+    <state width="1181" height="383" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585407677995" />
+    <state width="1181" height="383" key="GridCell.Tab.0.right" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="349" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585382428330" />
-    <state width="1181" height="383" key="GridCell.Tab.1.bottom" timestamp="1585376062949">
+    <state width="1181" height="383" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.1.bottom" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585376062949" />
-    <state width="1181" height="383" key="GridCell.Tab.1.center" timestamp="1585376062949">
+    <state width="1181" height="383" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.1.center" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585376062949" />
-    <state width="1181" height="383" key="GridCell.Tab.1.left" timestamp="1585376062949">
+    <state width="1181" height="383" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.1.left" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585376062949" />
-    <state width="1181" height="383" key="GridCell.Tab.1.right" timestamp="1585376062949">
+    <state width="1181" height="383" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.1.right" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585376062949" />
-    <state width="1181" height="383" key="GridCell.Tab.2.bottom" timestamp="1585376062950">
+    <state width="1181" height="383" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.2.bottom" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585376062950" />
-    <state width="1181" height="383" key="GridCell.Tab.2.center" timestamp="1585376062950">
+    <state width="1181" height="383" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.2.center" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1585376062950" />
-    <state width="1181" height="383" key="GridCell.Tab.2.left" timestamp="1585376062950">
+    <state width="1181" height="383" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.2.left" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1585376062950" />
-    <state width="1181" height="383" key="GridCell.Tab.2.right" timestamp="1585376062950">
+    <state width="1181" height="383" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.2.right" timestamp="1585407677996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1181" height="383" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1585376062950" />
+    <state width="1181" height="383" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1585407677996" />
+    <state width="1181" height="383" key="GridCell.Tab.3.bottom" timestamp="1585386937063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1181" height="383" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585386937063" />
+    <state width="1181" height="383" key="GridCell.Tab.3.center" timestamp="1585386937063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1181" height="383" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1585386937063" />
+    <state width="1181" height="383" key="GridCell.Tab.3.left" timestamp="1585386937063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1181" height="383" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1585386937063" />
+    <state width="1181" height="383" key="GridCell.Tab.3.right" timestamp="1585386937063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1181" height="383" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1585386937063" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1585369302151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -748,10 +762,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="418" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1585375767898" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585382534519">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585382627698">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585382534519" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585382627698" />
     <state x="869" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585189766887">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

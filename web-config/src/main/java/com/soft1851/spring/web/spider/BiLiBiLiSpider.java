@@ -3,6 +3,7 @@ package com.soft1851.spring.web.spider;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.soft1851.spring.web.entity.Rank;
+import com.soft1851.spring.web.service.RankService;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -16,6 +17,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -47,20 +49,28 @@ public class BiLiBiLiSpider {
                 if (entity != null) {
                     String res = EntityUtils.toString(entity);
                     Document document = Jsoup.parse(res);
-                    Elements scriptes = document.getElementsByTag("script");
-                    String wholeData = scriptes.get(5).html();
+                    Elements scripts = document.getElementsByTag("script");
+                    String wholeData = scripts.get(5).html();
                     System.out.println(wholeData);
                     String data = wholeData.substring(wholeData.indexOf("rankList") + 10, wholeData.indexOf(
                             "rankRouteParams") - 2);
+                    System.out.println(data);
                     JSONArray jsonArray = JSONArray.parseArray(data);
+                    System.out.println(jsonArray);
                     jsonArray.forEach(o -> {
-                        JSONObject json = JSONObject.parseObject(o.toString());
+                        JSONObject json1 = JSONObject.parseObject(o.toString());
+                        JSONObject json2 = JSONObject.parseObject(o.toString()).getJSONObject("new_ep");
+                        JSONObject json3 = JSONObject.parseObject(o.toString()).getJSONObject("stat");
                         Rank rank =
                                 Rank.builder()
-                                        .title(json.getString("title"))
-                                        .play(json.getInteger("play"))
-                                        .pic(json.getString("pic"))
-                                        .barrage(json.getInteger("video_review"))
+                                        .title(json1.getString("title"))
+                                        .play(json1.getInteger("play"))
+                                        .pic(json1.getString("pic"))
+                                        .barrage(json1.getInteger("video_review"))
+                                        .url(json1.getString("url"))
+                                        .score(json1.getInteger("pts"))
+                                        .collect(json2.getString("index_show"))
+                                        .follow(json3.getInteger("follow"))
                                         .build();
                         ranks.add(rank);
                     });
@@ -73,6 +83,7 @@ public class BiLiBiLiSpider {
     }
 
     public static void main(String[] args) {
+//        getRanks();
         for (Rank r :
                 getRanks()) {
             System.out.println(r);
