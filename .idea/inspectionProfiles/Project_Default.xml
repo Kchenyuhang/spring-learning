@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date,Author,Description,Date" />
+      <option name="myAdditionalJavadocTags" value="date,Author,Description,Date,ComponentScan：用来扫描包,Configuration：用来标注本类是个配置类,PropertySource：用来读入资源目录的属性文件,EnableTransactionManagement：运行事务管理器" />
     </inspection_tool>
   </profile>
 </component>
