@@ -1,4 +1,4 @@
-package com.soft1851.spring.web.dao;
+package com.soft1851.spring.web;
 
 import com.soft1851.spring.web.entity.Forum;
 

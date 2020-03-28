@@ -1,13 +1,12 @@
-package com.soft1851.spring.web.dao.impl;
+package com.soft1851.spring.web.impl;
 
-import com.soft1851.spring.web.dao.ForumDao;
+import com.soft1851.spring.web.ForumDao;
 import com.soft1851.spring.web.entity.Forum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

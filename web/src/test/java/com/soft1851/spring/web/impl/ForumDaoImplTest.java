@@ -1,6 +1,6 @@
-package com.soft1851.spring.web.dao.impl;
+package com.soft1851.spring.web.impl;
 
-import com.soft1851.spring.web.dao.ForumDao;
+import com.soft1851.spring.web.ForumDao;
 import com.soft1851.spring.web.entity.Forum;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,8 +9,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * @Author yhChen

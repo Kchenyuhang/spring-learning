@@ -1,6 +1,6 @@
 package com.soft1851.spring.web.service.impl;
 
-import com.soft1851.spring.web.dao.ForumDao;
+import com.soft1851.spring.web.ForumDao;
 import com.soft1851.spring.web.service.ForumService;
 import com.soft1851.spring.web.entity.Forum;
 import org.springframework.beans.factory.annotation.Autowired;
