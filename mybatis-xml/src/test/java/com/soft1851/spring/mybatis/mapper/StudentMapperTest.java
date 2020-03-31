@@ -30,7 +30,7 @@ public class StudentMapperTest {
     public void insert() {
         Student student = Student.builder()
                 .clazzId(1)
-                .studentName("测试学生")
+                .studentName("Saber")
                 .hometown("江苏南京")
                 .birthday(LocalDate.of(2000,10,20))
                 .build();
@@ -40,7 +40,7 @@ public class StudentMapperTest {
 
     @Test
     public void delete() {
-        studentMapper.delete(2010);
+        studentMapper.delete(5011);
     }
 
     @Test
@@ -66,7 +66,7 @@ public class StudentMapperTest {
         List<Student> students = new ArrayList<>();
         for (int i=0;i<10;i++){
             Student student = Student.builder()
-                    .studentId(5000+i)
+                    .studentId(6000+i)
                     .studentName("测试学生"+i)
                     .clazzId(1)
                     .hometown("测试城市")
@@ -80,8 +80,8 @@ public class StudentMapperTest {
     @Test
     public void batchDelete() {
         List<Integer> idList = new ArrayList<>();
-        for (int i=0;i<10;i++){
-            idList.add(4000+i);
+        for (int i=0;i<5;i++){
+            idList.add(5000+i);
         }
         System.out.println(studentMapper.batchDelete(idList));
     }

@@ -17,5 +17,6 @@ import lombok.NoArgsConstructor;
 public class MatterDto {
     private String teacherName;
     private String clazzName;
+//    private Student student;
     private String studentName;
 }

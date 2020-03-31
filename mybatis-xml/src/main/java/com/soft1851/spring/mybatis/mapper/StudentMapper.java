@@ -77,7 +77,7 @@ public interface StudentMapper {
     /**
      * 查询某位老师的某个班级上面的某个学生
      * @param matterDto
-     * @return List<MatterDto>
+     * @return List<MatterVo>
      */
     List<MatterVo> selectLimitFromTeacherInClassByDynamicSql(MatterDto matterDto);
 
