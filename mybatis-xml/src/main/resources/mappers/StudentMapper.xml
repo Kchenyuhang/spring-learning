@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1851.spring.mybatis.mapper.StudentMapper">
+
+    <!--    新增student-->
+    <insert id="insert" parameterType="Student" useGeneratedKeys="true" keyProperty="studentId">
+        INSERT INTO t_student (clazz_id, student_name, hometown, birthday)
+        VALUES (#{clazzId}, #{studentName}, #{hometown}, #{birthday})
+    </insert>
+
+    <!--    删除student-->
+    <delete id="delete" parameterType="int">
+        DELETE
+        FROM t_student
+        WHERE student_id = #{studentId}
+    </delete>
+
+    <!--    更新student-->
+    <update id="update" parameterType="Student">
+        UPDATE t_student
+        SET student_name = #{studentName},
+            hometown     = #{hometown},
+            birthday     = #{birthday}
+        WHERE student_id = #{studentId}
+    </update>
+
+    <!--    根据studentId查询Student-->
+    <select id="getStudentById" parameterType="int" resultType="Student">
+        SELECT *
+        FROM t_student
+        WHERE student_id = #{studentId}
+    </select>
+
+    <!--    批量插入-->
+    <insert id="batchInsert" parameterType="Student">
+        INSERT INTO t_student VALUES
+        <foreach collection="students" item="item" index="index" separator=",">
+            (#{item.studentId},#{item.clazzId},#{item.studentName},#{item.hometown},#{item.birthday})
+        </foreach>
+    </insert>
+
+    <!--    批量删除-->
+    <delete id="batchDelete" parameterType="int">
+        DELETE FROM t_student
+        WHERE student_id IN
+        <foreach collection="idList" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+<!--    批量改-->
+    <update id="batchUpdate" parameterType="java.util.List">
+        <foreach collection="studentList" item="item" index="index" open="" close="" separator=";">
+            UPDATE t_student t
+            <set>
+                t.student_name = #{item.studentName}
+            </set>
+            WHERE t.student_id = ${item.studentId}
+        </foreach>
+    </update>
+
+    <select id="selectLimit" resultType="Student">
+        SELECT student_id,clazz_id,student_name,hometown,birthday
+        FROM t_student
+        WHERE clazz_id = ${2} AND hometown like '%${江苏}%'
+    </select>
+
+    <select id="selectLimitByDynamicSql" parameterType="Student" resultType="Student">
+        SELECT  student_id,clazz_id,student_name, hometown,birthday
+        FROM t_student
+        <where>
+            <if test="clazzId != null">
+                clazz_id = #{clazzId}
+            </if>
+            <if test="hometown != null">
+                AND hometown like "%"#{hometown}"%"
+            </if>
+            <if test="studentName != null">
+                AND student_name like #{studentName}
+            </if>
+        </where>
+    </select>
+
+<!--    <select id="selectLimitFromTeacherInClassByDynamicSql" parameterType="MatterDto" resultType="MatterVo">-->
+<!--        SELECT t.teacher_name, c.clazz_name, s.student_name, s.hometown, s.birthday-->
+<!--        FROM t_teacher t, t_clazz c, t_student s-->
+<!--        WHERE t.clazz_id = c.clazz_id AND c.clazz_id = s.clazz_id-->
+<!--        <if test="teacherName != null and clazzName != null and studentName != null">-->
+<!--            AND teacher_name like "%"#{teacherName}"%"-->
+<!--            AND clazz_name like "%"#{clazzName}"%"-->
+<!--            AND student_name like "%"#{studentName}"%"-->
+<!--        </if>-->
+<!--    </select>-->
+
+        <select id="selectLimitFromTeacherInClassByDynamicSql" parameterType="MatterDto" resultType="MatterVo">
+            SELECT t.teacher_name, c.clazz_name, s.student_name, s.hometown, s.birthday
+            FROM t_teacher t, t_clazz c, t_student s
+            <where>
+                t.clazz_id = c.clazz_id AND c.clazz_id = s.clazz_id
+                <if test="teacherName != null and clazzName != null">
+                    AND teacher_name like "%"#{teacherName}"%"
+                    AND clazz_name like "%"#{clazzName}"%"
+                </if>
+
+                <if test="student.studentName != null">
+                    And student_name like "%"#{student.studentName}"%"
+                </if>
+
+                <if test="student.hometown != null">
+                    AND student_homwtown like "%"#{student.hometown}"%"
+                </if>
+
+                <if test="student.birthday != null">
+                    AND student_birthday like "%"#{student.birthday}"%"
+                </if>
+            </where>
+        </select>
+
+    <!--    查询所有学生，按生日排序，多对一查询所有学生所在班级信息-->
+    <resultMap type="Student" id="studentMap">
+        <id column="student_id" property="studentId"/>
+        <result column="student_name" property="studentName"/>
+        <result column="hometown" property="hometown"/>
+        <result column="birthday" property="birthday"/>
+        <association property="clazz" javaType="Clazz">
+            <id column="clazz_id" property="clazzId"/>
+            <result column="clazz_name" property="clazzName"/>
+        </association>
+    </resultMap>
+
+    <select id="selectAll" resultMap="studentMap">
+        SELECT s.student_id,s.student_name,s.birthday,c.clazz_name
+        FROM t_student s
+                 RIGHT JOIN t_clazz c
+                            ON s.clazz_id = c.clazz_id
+        ORDER BY  s.birthday DESC
+    </select>
+</mapper>
