@@ -22,6 +22,7 @@
         <typeAlias type="com.soft1851.spring.mybatis.entity.CourseStudent" alias="CourseStudent"/>
         <typeAlias type="com.soft1851.spring.mybatis.entity.ClazzVo" alias="ClazzVo"/>
         <typeAlias type="com.soft1851.spring.mybatis.entity.MatterDto" alias="MatterDto"/>
+        <typeAlias type="com.soft1851.spring.mybatis.entity.User" alias="User"/>
     </typeAliases>
 
     <!--类型命名-->

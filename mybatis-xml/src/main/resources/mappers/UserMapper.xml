@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.soft1851.spring.mybatis.mapper.UserMapper">
+    <!--    根据手机号登录-->
+    <select id="phoneLogin" resultType="User">
+        SELECT *
+        FROM t_user
+        WHERE phone_number = #{phoneNumber}
+          AND password = #{password}
+    </select>
+    <!--    根据邮箱登录-->
+    <select id="emailLogin" resultType="User">
+        SELECT (user_name,phone_number,email,last_login_time)
+        FROM t_user
+        WHERE email = #{email}
+          AND password = #{password}
+    </select>
+
+    <update id="updateTime" >
+        UPDATE t_user SET last_login_time = #{thisTime} WHERE id = #{id}
+    </update>
+</mapper>
