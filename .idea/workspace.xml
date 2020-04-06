@@ -7,21 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="725e4afc-1ff1-48e1-bc93-f763ad8db537" name="Default Changelist" comment="mybatis-xml配置">
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/hello/BeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/hello/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/hello/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/hello/HelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/picture/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/picture/PictureAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/picture/PictureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/soft1851/spring/aop/picture/PictureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/resources/logback.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-xml/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-xml/logs/main.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web-config/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web-config/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/MusicMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/dao/impl/MusicMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/entity/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/MusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/service/impl/MusicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/main/java/com/soft1851/spring/web/spider/MusicSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/MusicServiceImplTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/logs/error.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/logs/main.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/RankServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-config/src/test/java/com/soft1851/spring/web/service/impl/RankServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +70,9 @@
         <option value="spring-beans.schema" />
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -119,19 +124,26 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aop/src/main/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1851.spring.aop.picture" />
+      <recent name="com.soft1851.spring.mybatis.mapper.impl" />
+      <recent name="com.soft1851.spring.mybatis.service.impl" />
+      <recent name="com.soft1851.spring.mybatis.service" />
+      <recent name="com.soft1851.spring.web.service.impl" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.soft1851.spring.aop.picture" />
       <recent name="com.soft1851.spring.web.service.impl" />
       <recent name="com.soft1851.spring.mybatis.mapper" />
       <recent name="com.soft1851.spring.mybatis.service" />
       <recent name="com.soft1851.spring.web.dao" />
-      <recent name="com.soft1851.spring.web.dao.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -140,16 +152,12 @@
       <recent name="com.soft1851.spring.web.dao" />
       <recent name="com.soft1851.spring.orm" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\dev\SpringStudy\spring-learning" />
-      <recent name="D:\dev\SpringStudy\spring-learning\ioc\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\SpringStudy\spring-learning\aop\src\main\resources" />
       <recent name="D:\dev\SpringStudy\spring-learning\mybatis-xml\src\main\resources" />
       <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\resources\img" />
       <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\java\com\soft1851\spring\web\config" />
       <recent name="D:\dev\SpringStudy\spring-learning\web-config\src\main\resources" />
-      <recent name="D:\dev\SpringStudy\spring-learning\web\src\main\java\com\soft1851\spring\web\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1851.spring.web.service.impl" />
@@ -158,12 +166,9 @@
       <recent name="com.soft1851.spring.web.dao" />
       <recent name="com.soft1851.spring.web.spider" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.soft1851.spring.mybatis.mapper.impl" />
-      <recent name="com.soft1851.spring.mybatis.service.impl" />
-      <recent name="com.soft1851.spring.mybatis.service" />
-      <recent name="com.soft1851.spring.web.service.impl" />
-      <recent name="com.soft1851.spring.web.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\SpringStudy\spring-learning" />
+      <recent name="D:\dev\SpringStudy\spring-learning\ioc\src\main\resources" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -180,7 +185,33 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.RankServiceImplTest.queryAll">
+  <component name="RunManager" selected="Application.PictureTest">
+    <configuration name="HelloTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.aop.hello.HelloTest" />
+      <module name="aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.aop.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PictureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.aop.picture.PictureTest" />
+      <module name="aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.aop.picture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicServiceImplTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-config" />
       <extension name="coverage">
@@ -208,38 +239,6 @@
       <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.impl.RankServiceImplTest" />
       <option name="METHOD_NAME" value="queryAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentMapperTest.getStudentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.StudentMapperTest" />
-      <option name="METHOD_NAME" value="getStudentById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.emailLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.mybatis.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="emailLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,20 +404,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UserMapperTest.phoneLogin" />
-      <item itemvalue="JUnit.StudentMapperTest.getStudentById" />
-      <item itemvalue="JUnit.UserMapperTest.emailLogin" />
       <item itemvalue="JUnit.MusicServiceImplTest.batchInsert" />
       <item itemvalue="JUnit.RankServiceImplTest.queryAll" />
       <item itemvalue="Tomcat Server.my-web" />
       <item itemvalue="Tomcat Server.my-web-config" />
+      <item itemvalue="Application.HelloTest" />
+      <item itemvalue="Application.PictureTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PictureTest" />
+        <item itemvalue="Application.HelloTest" />
         <item itemvalue="JUnit.RankServiceImplTest.queryAll" />
         <item itemvalue="JUnit.MusicServiceImplTest.batchInsert" />
         <item itemvalue="JUnit.UserMapperTest.phoneLogin" />
-        <item itemvalue="JUnit.UserMapperTest.emailLogin" />
-        <item itemvalue="JUnit.StudentMapperTest.getStudentById" />
       </list>
     </recent_temporary>
   </component>
@@ -486,6 +485,7 @@
       <workItem from="1585998032424" duration="962000" />
       <workItem from="1586008249959" duration="2181000" />
       <workItem from="1586058745629" duration="11428000" />
+      <workItem from="1586164274977" duration="3441000" />
     </task>
     <task id="LOCAL-00001" summary="update学生类、pom.xml配置更新、添加logback.xml">
       <created>1584411939349</created>
@@ -627,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585970539206</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="删除不必要的代码">
+      <created>1586164440101</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586164440101</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +663,8 @@
     <MESSAGE value="MyBatis操作" />
     <MESSAGE value="mybatis-xml配置" />
     <MESSAGE value="music-player,手机和邮箱登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="music-player,手机和邮箱登录" />
+    <MESSAGE value="删除不必要的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除不必要的代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="91" key="#Inspections" timestamp="1585566834481">
@@ -683,10 +691,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="455" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1584443211681" />
-    <state x="563" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1585797892058">
+    <state x="563" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1586166292027">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="563" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1585797892058" />
+    <state x="563" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1586166292027" />
     <state x="883" y="208" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584437408872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -723,30 +731,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584576847565" />
-    <state x="326" y="32" key="CommitChangelistDialog2" timestamp="1585970535815">
+    <state x="326" y="32" key="CommitChangelistDialog2" timestamp="1586164436575">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="326" y="32" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1585970535815" />
+    <state x="326" y="32" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1586164436575" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585018163323">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585018163323" />
-    <state width="709" height="351" key="GridCell.Tab.0.bottom" timestamp="1586073587640">
+    <state width="1493" height="367" key="GridCell.Tab.0.bottom" timestamp="1586169022456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="709" height="351" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586073587640" />
-    <state width="709" height="351" key="GridCell.Tab.0.center" timestamp="1586073587640">
+    <state width="1493" height="367" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586169022456" />
+    <state width="1493" height="367" key="GridCell.Tab.0.center" timestamp="1586169022456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="709" height="351" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586073587640" />
-    <state width="709" height="351" key="GridCell.Tab.0.left" timestamp="1586073587639">
+    <state width="1493" height="367" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586169022456" />
+    <state width="1493" height="367" key="GridCell.Tab.0.left" timestamp="1586169022456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="709" height="351" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586073587639" />
-    <state width="709" height="351" key="GridCell.Tab.0.right" timestamp="1586073587640">
+    <state width="1493" height="367" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586169022456" />
+    <state width="1493" height="367" key="GridCell.Tab.0.right" timestamp="1586169022456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="709" height="351" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586073587640" />
+    <state width="1493" height="367" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586169022456" />
     <state width="1181" height="383" key="GridCell.Tab.1.bottom" timestamp="1585446484805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -803,10 +811,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="418" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586071743486" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1585970648400">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1586164445410">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1585970648400" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1586164445410" />
     <state x="869" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585189766887">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -815,10 +823,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="586" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1585018587872" />
-    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586010060522">
+    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586165654437">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1586010060522" />
+    <state x="913" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1586165654437" />
     <state x="356" y="9" key="new project wizard" timestamp="1585565750953">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -827,18 +835,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="895" y="50" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1584431756685" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1585798952128">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1586168845455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1585798952128" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1586168845455" />
     <state x="815" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1585018476535">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="815" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585018476535" />
-    <state x="677" y="122" key="spring file set editor" timestamp="1585566843757">
+    <state x="677" y="122" key="spring file set editor" timestamp="1586166019066">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="677" y="122" key="spring file set editor/0.0.1536.864@0.0.1536.864" timestamp="1585566843757" />
+    <state x="677" y="122" key="spring file set editor/0.0.1536.864@0.0.1536.864" timestamp="1586166019066" />
     <state x="877" y="351" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584409672944">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

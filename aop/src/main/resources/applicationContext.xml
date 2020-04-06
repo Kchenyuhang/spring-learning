@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!-- 配置一个目标对象-->
+    <bean id="hello" class="com.soft1851.spring.aop.hello.HelloImpl"/>
+    <!--配置一个增加对象-->
+    <bean id="beforeAdvice" class="com.soft1851.spring.aop.hello.BeforeAdvice"/>
+    <!--aop配置，配置切点 切点表达式 增加的注入-->
+    <aop:config>
+        <!--切面编程-->
+        <aop:aspect id="before" ref="pictureAdvice">
+            <!--在哪里做 需要切哪里  切点的配置-->
+            <aop:pointcut id="beforeCut" expression="execution(* com.soft1851.spring.aop..*.tilt*(..))"/>
+            <!--具体是那个方法需要 增加的注入-->
+            <aop:before method="text" pointcut-ref="beforeCut"/>
+            <aop:after-returning method="tilt" pointcut-ref="beforeCut"/>
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="picture" class="com.soft1851.spring.aop.picture.PictureImpl"/>
+    <bean id="pictureAdvice" class="com.soft1851.spring.aop.picture.PictureAdvice"/>
+
+    <!--开启使用注解并注入-->
+    <aop:aspectj-autoproxy/>
+</beans>
