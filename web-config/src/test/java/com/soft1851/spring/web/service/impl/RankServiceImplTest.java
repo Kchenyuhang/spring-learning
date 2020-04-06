@@ -1,6 +1,7 @@
 package com.soft1851.spring.web.service.impl;
 
 import com.soft1851.spring.web.config.SpringDataSourceConfig;
+import com.soft1851.spring.web.entity.Rank;
 import com.soft1851.spring.web.service.RankService;
 import com.soft1851.spring.web.spider.BiLiBiLiSpider;
 import org.junit.Test;
@@ -10,6 +11,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import javax.annotation.Resource;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -28,6 +31,8 @@ public class RankServiceImplTest {
 
     @Test
     public void queryAll() {
+        List<Rank> ranks = rankService.queryAll();
+        ranks.forEach(System.out::println);
     }
 
     @Test
